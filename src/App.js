@@ -1,12 +1,11 @@
+import TodoItem from "./TodoItem";
+
 function App() {
   return (
-    <div className="App">
-      <input type="checkbox"></input>
-      <p>some text</p>
-      <input type="checkbox"></input>
-      <p>some text</p>
-      <input type="checkbox"></input>
-      <p>some text</p>
+    <div className="todo-list">
+      <TodoItem />
+      <TodoItem />
+      <TodoItem />
     </div>
   );
 }
