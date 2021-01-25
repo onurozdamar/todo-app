@@ -41,3 +41,9 @@ input[type="checkbox"] {
 input[type="checkbox"]:focus {
   outline: 0;
 }
+
+.completedText {
+  font-style: italic;
+  color: #cdcddc;
+  text-decoration: line-through;
+}

@@ -6,7 +6,9 @@ function TodoItem(props) {
         checked={props.item.completed}
         onChange={() => props.handleChange(props.item.id)}
       />
-      <p>{props.item.text}</p>
+      <p className={props.item.completed && "completedText"}>
+        {props.item.text}
+      </p>
     </div>
   );
 }
